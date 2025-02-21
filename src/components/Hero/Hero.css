@@ -37,58 +37,143 @@ font-weight: 500;
 margin-bottom: 50px;
 
 }
-.hero-connect{
+/*.hero-connect{
     padding: 25px 45px;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09% , #B415FE 106.28%);
     cursor: pointer;
 
-}
+}*/
 .hero-resume{
     padding: 25px 45px;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
+    background: linear-gradient(264deg, #DF8908 -5.09% , #B415FE 106.28%)
 
 }
-.hero-connect:hover{
+/*.hero-connect:hover{
     border: 2px solid #fff;
 
-}
+}*/
 .hero-resume:hover{
-    border-color: #B415FE;
+    border-color: red;
 
 }
-@media(max-width:768px){
-    .hero img{
+.hero-resume a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 1024px) {
+    .hero img {
+        margin-top: 80px;
+        width: 280px;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+        width: 80%;
+    }
+
+    .hero p {
+        width: 60%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .hero-action {
+        gap: 20px;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .hero-connect {
+        padding: 22px 35px;
+        border-radius: 45px;
+      
+    }
+
+    .hero-resume {
+        padding: 22px 40px;
+        border-radius: 45px;
+    }
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+    .hero img {
         margin-bottom: 120px;
         width: 260px;
-       
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 50px;
         margin-top: 50px;
         width: 90%;
     }
-    .hero p{
+
+    .hero p {
         width: 60%;
         font-size: 18px;
         line-height: 32px;
-        
     }
-    .hero-action{
+
+    .hero-action {
         gap: 16px;
         font-size: 18px;
         font-weight: 500;
         margin-top: 50px;
     }
-    .hero-connect{
+
+    .hero-connect {
         padding: 20px 30px;
         border-radius: 40px;
-      
+        width: 60px;
     }
-    .hero-resume{
+
+    .hero-resume {
         padding: 20px 50px;
         border-radius: 40px;
+        width: 60px;
+    }
+}
+
+/* Extra Small devices (smaller mobile phones) */
+@media (max-width: 480px) {
+    .hero {
+        gap: 30px;
+    }
+
+    .hero img {
+        margin-bottom: 90px;
+        width: 200px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .hero p {
+        width: 70%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .hero-action {
+        gap: 12px;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .hero-connect {
+        padding: 18px 28px;
+        border-radius: 35px;
+    }
+
+    .hero-resume {
+        padding: 18px 35px;
+        border-radius: 35px;
     }
 }
