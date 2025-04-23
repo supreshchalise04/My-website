@@ -1,6 +1,6 @@
 import project1_img from '../assets/portofilo.png';
-import project2_img from '../assets/project_2.svg';
-import project3_img from '../assets/project_3.svg';
+import project2_img from '../assets/123.png';
+import project3_img from '../assets/456.png';
 import project4_img from '../assets/project_4.svg';
 import project5_img from '../assets/project_5.svg';
 import project6_img from '../assets/project_6.svg';
@@ -14,15 +14,15 @@ const mywork_data = [
     },
     {
         w_no: 2,
-        w_name: "Web design",
+        w_name: "Fansaty-football-App-UI-Recreate",
         w_img: project2_img,
-        w_link: "https://example.com/project2"
+        w_link: "https://github.com/supreshchalise04/Fansaty-football-App-UI-Recreate"
     },
     {
         w_no: 3,
-        w_name: "Web design",
+        w_name: "Bank-dashboard-in-figma",
         w_img: project3_img,
-        w_link: "https://example.com/project3"
+        w_link: "https://github.com/supreshchalise04/Bank-dashboard-in-figma"
     },
     {
         w_no: 4,
